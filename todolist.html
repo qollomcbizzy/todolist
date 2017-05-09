@@ -9,5 +9,27 @@
   <title>address book for my places</title>
 </head>
 <body>
+  <div class="container">
+    <div class="row">
+      <div class="row">
+        <div class="col-md-5 col-md-offset-3">
+          <h2>TO DO LIST</h2>
+        </div>
+      </div>
+      <div class="col-md-8 col-md-offset-1">
+        <form id="todolist">
+          <table class="table table-bordered">
+            <tr><th><label>Task</label></th><th>location</th><th>Date</th><th>Time</th><th>Notes</th></tr>
+            <tr><th><textarea type="text" class="form-control" id="new-task"></textarea></th>
+              <th><input type="location" class="form-control" id="new-location"></th>
+              <th><input type="date" class="form-control" id="new-date"></th>
+              <th><input type="time" class="form-control" id="new-time"></th>
+              <th><textarea type="text" class="form-control" id="new-notes"></textarea></th></tr>
+          </table>
+          <button class="btn btn-primary">ADD TO DO LIST</button>
+        </form>
+      </div>
+    </div>
+  </div>
 </body>
 </html>
