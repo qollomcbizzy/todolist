@@ -19,15 +19,30 @@
       <div class="col-md-8 col-md-offset-1">
         <form id="todolist">
           <table class="table table-bordered">
-            <tr><th><label>Task</label></th><th>location</th><th>Date</th><th>Time</th><th>Notes</th></tr>
+            <tr><th><label>Task</label></th><th>location</th><th>Date</th><th>Time</th></tr>
             <tr><th><textarea type="text" class="form-control" id="new-task"></textarea></th>
               <th><input type="location" class="form-control" id="new-location"></th>
               <th><input type="date" class="form-control" id="new-date"></th>
               <th><input type="time" class="form-control" id="new-time"></th>
-              <th><textarea type="text" class="form-control" id="new-notes"></textarea></th></tr>
           </table>
           <button class="btn btn-primary">ADD TO DO LIST</button>
         </form>
+        <!--displays task list-->
+        <ul id="task">
+
+        </ul>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-8 col-md-offset-1" id="show-details">
+        <table class="table table-bordered">
+          <tr><th><label>Task</label></th><th>location</th><th>Date</th><th>Time</th><th>status</th></tr>
+          <tr><th><p><span class="task"></span></p></th>
+          <th><p><span class="location"></span></p></th>
+          <th><p><span class="date"></span></p></th>
+          <th><p><span class="time"></span></p></th>
+          <th><input type="checkbox" form="form-control" name="status" id="done" value=1></th></tr>
+        </table>
       </div>
     </div>
   </div>

@@ -1,13 +1,13 @@
-#show-location{
+#show-details{
   display:none;
   padding-top: 40px;
   font-size: 20px;
 }
-.location{
+.task{
   cursor: pointer;
   color: black;
 }
-.location:hover{
+.task:hover{
   text-decoration: underline;
   color: blue;
 }
