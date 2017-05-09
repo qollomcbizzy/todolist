@@ -13,5 +13,6 @@ $(document).ready(function(){
         var inputtedDate=$("input#new-date").val();
           var inputtedTime=$("input#new-time").val();
             var inputtedNotes=$("textarea#new-notes").val();
+    var newTask=new Task(inputtedTask,inputtedLocation,inputtedDate,inputtedTime,inputtedNotes);
   });
 });
