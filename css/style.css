@@ -1,0 +1,13 @@
+#show-location{
+  display:none;
+  padding-top: 40px;
+  font-size: 20px;
+}
+.location{
+  cursor: pointer;
+  color: black;
+}
+.location:hover{
+  text-decoration: underline;
+  color: blue;
+}
